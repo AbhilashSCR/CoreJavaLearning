@@ -31,5 +31,19 @@ public class Lab014 {
 	    String value1="52"; //Quoting in string
 	    System.out.println("ASCII value of number 4 is "+ value1);
 	
+     	    
+	   char c='@';
+	   char d='$';
+	   char e='&';
+	   char _f='*';
+			   
+	   System.out.println(c);
+	   System.out.println(d);
+	   System.out.println(e);
+	   System.out.println(_f);
+	   
+	    
+	    
 	}
+	
 }
