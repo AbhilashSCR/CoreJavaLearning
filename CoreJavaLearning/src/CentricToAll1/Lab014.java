@@ -36,12 +36,13 @@ public class Lab014 {
 	   char d='$';
 	   char e='&';
 	   char _f='*';
+	   char _1='%';
 			   
 	   System.out.println(c);
 	   System.out.println(d);
 	   System.out.println(e);
 	   System.out.println(_f);
-	   
+	   System.out.println(_1);	   
 	    
 	    
 	}
