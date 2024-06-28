@@ -24,7 +24,7 @@ public class Lab088 {
 		String[] constituencies14= {"Musheerabad","Malakpet","Amberpet","Khairtabad","Jubilee hills","Sanathnagar","Nampally","Karwan","Goshamahal","Charminar","Chandrayangutta","Yakutpura","Bahadurpura","Secunderabad","Sec.Cantonment"};
 		String[] constituencies15= {"Vikrabad","Tandur","Kondangal"};
 		String[] constituencies16= {"Naryanpet","Makthal"};
-		String[] constituentcies17= {"Mahabubnagar","Jadcherla","Devarkadra"};
+		String[] constituencies17={"Mahabubnagar","Jadcherla","Devarkadra"};
 		String[] constituencies18= {"Wanaparthy"};
 		String[] constituencies19= {"Gadwal","Alampur"};
 		String[] constituencies20= {"Nagarkurnool","Achampet","Kollapur"};
@@ -60,6 +60,16 @@ public class Lab088 {
 		     System.out.println(constituencies14[12]);
 		     System.out.println(constituencies14[13]);
 		     System.out.println(constituencies14[14]);
+		     
+		     
+		     //Simply using the forloop can fetch the data from index0 to specified one
+		     
+		     
+		     System.out.println("Number of constituencies Rangareddy contains :"+ constituencies13.length);
+		     for(int i=0; i<=constituencies13.length-1; i++)
+		     {
+		    	 System.out.println(constituencies13[i]);
+		     }
 		     
 	}
 }
