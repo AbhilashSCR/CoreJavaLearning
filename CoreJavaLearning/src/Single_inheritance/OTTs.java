@@ -1,4 +1,4 @@
-package CentrictoAll6_Inheritance;
+package Single_inheritance;
 
 public class OTTs {
 	

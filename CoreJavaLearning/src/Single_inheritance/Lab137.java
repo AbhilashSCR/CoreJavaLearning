@@ -1,4 +1,4 @@
-package CentrictoAll6_Inheritance;
+package Single_inheritance;
 
 public class Lab137 {
 	public static void main(String[] args)
