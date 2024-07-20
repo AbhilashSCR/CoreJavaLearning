@@ -16,14 +16,14 @@ public class Encapsulation1 {
 		//Manipulating the username and password since we are not hiding
 		
 		hstr.emailaddress="abhi369@gmail.com";
-		hstr.password="Test369";
+		hstr.password="Test@369";
 		
 		//New credentials are created
 		System.out.println(hstr.emailaddress);
 		System.out.println(hstr.password);
 		
 		
-		boolean check1=hstr.isloggedin("abhi369@gmail.com", "Test369");
+		boolean check1=hstr.isloggedin("abhi369@gmail.com", "Test@369");
 		System.out.println(check1);
 	}
 
