@@ -9,7 +9,7 @@ public class Encapsulation2 {
 		
 		ICICInetbanklogin login=new ICICInetbanklogin("Abhilash","explore");
 		
-		boolean check=login.isLoggedin("abhilash","explore");
+		boolean check=login.isLoggedin("abhilash","Explore");
 		System.out.println(check);
 		
 

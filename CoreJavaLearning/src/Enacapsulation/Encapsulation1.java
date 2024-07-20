@@ -10,7 +10,7 @@ public class Encapsulation1 {
 		hotstar hstr=new hotstar("abhi@gmail.com","Test@123");
 		
 		//Incorrect password , unable to login
-		boolean check=hstr.isloggedin("abhilash@gmail.com", "Test@123");
+		boolean check=hstr.isloggedin("Abhi@gmail.com", "Test@123");
 		System.out.println(check);    
 		
 		//Manipulating the username and password since we are not hiding
