@@ -7,7 +7,7 @@ public class Interfaceexample {
 		
 		//A a= new A();  //Cannot create the objects for interface class
 		B b= new B();
-		//C c= new C();  //Cannot create the objectes for abstract class
+		//C c= new C();  //Cannot create the objects for abstract class
 		
 	}
 
