@@ -14,7 +14,8 @@ class Hello {
 	public int bro()
 	{
 		int a=0;
-		a=10/a;
-		throw new NullPointerException();
+		a=10/a;          //This throws AE
+		
+		throw new NullPointerException();  //It throws NPE
 	}
 }
