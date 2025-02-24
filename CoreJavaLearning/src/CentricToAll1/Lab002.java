@@ -10,8 +10,8 @@ public class Lab002 {
 		boolean IsJavaIntresting=true;
 		boolean IsJavaBoring=false;
 		
-		System.out.println("Yeah, Java is quite intresting");
-		System.out.print("Nope, Java is not boring");
+		System.out.println(true);
+		System.out.print(false);
 		
 		
 		

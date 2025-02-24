@@ -10,6 +10,10 @@ public class Lab001 {
 		System.out.println("Get Trained");
 		System.out.println("Get Skilled");
 		System.out.println("Get Employed");
+		System.out.println("Get notified");
+		System.out.println("Get rewarded");
+		System.out.println("Get benefited");
+		
 	}
 
 }
