@@ -11,7 +11,7 @@ public class Lab002 {
 		boolean IsJavaBoring=false;
 		
 		System.out.println(true);
-		System.out.print(false);
+		System.out.println(false);
 	
 		
 		
