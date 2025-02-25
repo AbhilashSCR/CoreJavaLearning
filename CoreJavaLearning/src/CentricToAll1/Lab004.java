@@ -4,11 +4,14 @@ public class Lab004 {
 
 	public static void main(String[] args)
 	{
-		//Byte is of 1 byte=8bits
+		//Byte is of 1 byte=8bits=128
 		
-		byte credit=100; 
-		//byte intrest=35+100; //Occurence of an error
-	    byte intrest2=12;
-		System.out.println(intrest2+credit); // No error thrown
+		byte todaywagecredited=110; 
+	    byte ot=12;
+		System.out.println(todaywagecredited+ot); // No error thrown
+		
+		//byte interest =todaywagecredited+34; //Occurence of an error
+		
+		
 	}
 }

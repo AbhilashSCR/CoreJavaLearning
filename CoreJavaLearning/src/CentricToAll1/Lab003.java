@@ -6,12 +6,14 @@ public class Lab003 {
 	{
 	 //Character is of 2 bytes=16 bits
 		
-	  Character A=65;
-	  System.out.println("Character value is declared as per the ASCII table");
+	  Character c=65;
+	  Character c1=52;
+	  System.out.println("Character values declared below are,as per the ASCII table");
 	  //Some examples of characters
-	  System.out.println('A');
-	  System.out.println('1');
-	  System.out.println('$');
+	   //Reference link : https://www.ascii-code.com/
+	  
+		System.out.println(c);
+		System.out.println(c1);
 		
 		
 	}
