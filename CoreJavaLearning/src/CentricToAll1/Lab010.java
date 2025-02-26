@@ -6,14 +6,14 @@ public class Lab010 {
 		// TODO Auto-generated method stub
 		
 		
-		//Eligibility for driving licence
+		//Eligible to drive vehicle >=18
 		
 		
-		int eligible=16;
-		System.out.println("Since am minor, not eligible to drive a car without licence");
+		int drivingage=16;
+		System.out.println("Not eligible to drive a car without licence");
 		
 		
-		eligible=24;
+		drivingage=24;//Replaced
 		System.out.print("Yeah, I own driving licence");
 
 	}

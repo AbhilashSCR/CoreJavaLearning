@@ -10,7 +10,7 @@ public class Lab009 {
 		
 		char a='A';    
 		a='1';
-		System.out.println(a);
+		System.out.println('a'+a);
 		
 		byte b=110;
 		b=123;
