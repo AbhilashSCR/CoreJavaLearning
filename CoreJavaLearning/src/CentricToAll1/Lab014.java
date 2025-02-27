@@ -12,24 +12,21 @@ public class Lab014 {
         //Special characters--->34--47
 		
 		
-//Declaring decimals for random characters
+//Declaring random values for primitive and non-primitive data types
 		
-		char a = 'A';
+		char a =117;
 		String a1="A"; //Quoting in string
         a1="97";
-        System.out.println("a="+a1);
+        System.out.println("Code 117 denotes " + a + " character " +  a1);
        
 
 	
-        char Z = 'z';
-        String Z1="z";  //Quoting in string
-        Z1="90";
-        System.out.println("Z="+Z1);
         
-	
-	    char value=52;
-	    String value1="52"; //Quoting in string
-	    System.out.println("ASCII value of number 4 is "+ value1);
+
+	    char number=52;
+	    String code="52"; //Quoting in string
+	    System.out.println("ASCII code for the declared number -->" + number );
+	    System.out.println("ASCII value of number 4 is "+ code);
 	
      	    
 	   char c='@';

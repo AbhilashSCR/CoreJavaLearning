@@ -6,16 +6,19 @@ public class Lab015 {
 		// TODO Auto-generated method stub
 		
 		
-	//Arithmetic operator : +,-,*,/
+	//Arithmetic operators : +,-,*,/,%
 		
-		int i=4500;
-		byte b=125;
+		int i=625;
+		byte b=25;
 		
-		System.out.println("Sum of 2 numbers =" + (i+b));
-		System.out.println("Sub of 2 numbers =" + (i-b));
-		System.out.println("Mul of 2 numbers =" + (i*b));
-		System.out.println("div of 2 numbers =" + (i/b));
-		System.out.println("Mod of 2 numbers =" + (i%b));
+		
+		System.out.println("Arithmetic operations are shown below");
+		System.out.println("Sum of two numbers "+ (i+b));
+		System.out.println("Sub of two numbers "+ (i-b));
+		System.out.println("Mul of two numbers "+ (i*b));
+		System.out.println("Div of two numbers "+ (i/b));
+		System.out.println("Mod of two numbers "+ (i%b));
+		
 	}
 
 }

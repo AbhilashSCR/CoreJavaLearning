@@ -6,13 +6,17 @@ public class Lab013 {
 		// TODO Auto-generated method stub
 		
 		
-		//Note: Final keyword value will be static
+		//Note: Final keyword value will remain static
 		
 		
 		final String number="145";
+		//number="541"; Occurence of an error
 		System.out.println(number) ;
 		
+	
+		
 		String name="Abhilash";
+		name="Vemula Abhilash";
 		System.out.println(name);
 				
 		final String name1="Abhilash Vemula";
