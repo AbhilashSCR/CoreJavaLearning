@@ -9,13 +9,13 @@ public class Lab019 {
 		//Assignment operators : = += -= *= /= %= &= ^= |= <<= >>= >>>=
 		
 		
-		byte b=10;
+		byte b=120;
 		short s=137;
 		int i=245;
 		long l=3567;
 		
 		
-		System.out.println(b+=10);
+		System.out.println(b+=10);  //After appending it take the maximum byte value
 		System.out.println(s-=3);
 		System.out.println(i*=2);
 		System.out.println(l/=5);

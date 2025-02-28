@@ -18,8 +18,9 @@ public class Lab021 {
         String Middlename="Sharma";
         System.out.println(Firstname + '\n' + Middlename + '\n'+ Surname) ;
         System.out.println(Firstname+'\t'+Middlename);  
-        
-	   
+        char c='\b';
+        System.out.println("Abhilash"+c+ "Sharma"); //In intellij its working fine
+        System.out.println("vemula" + '\r'+"Vicky");
 	}
 
 }

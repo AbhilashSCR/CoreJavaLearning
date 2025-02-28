@@ -9,13 +9,13 @@ public class Lab016 {
 		//Unary operator: Prefix -->++expr/--expr  , Postfix -->expr++/expr--
 		
 		
-		int i=127;
-		byte b=113;
+		int i=201;
+		byte b=73;
 		System.out.println(+i);
 		System.out.println(+b);
 		System.out.println(++i);
 		System.out.println(b++);
-		System.out.println(b++);//Here the byte value is incremented for postfix
+		System.out.println(b++);
 		System.out.println(++i + b++);
 		System.out.println(b-- - b++);
 		System.out.println(i++ - --b);
