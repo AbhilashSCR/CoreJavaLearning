@@ -6,11 +6,11 @@ public class Lab027 {
 		// TODO Auto-generated method stub
 		
 		
-		int HP_laptop_Carrybag= 37720;
-		float central_gst=4140;  //18%
-		float state_gst=4140;    //18%
-		float total= HP_laptop_Carrybag+central_gst+state_gst;
-		System.out.println(total);
+		int Watercharges_permonth= 150;
+		float sewercess=52.50f;  
+		float servicecharges=40;    
+		float Netpayable=Watercharges_permonth+sewercess+servicecharges;
+		System.out.println(Netpayable);
 		
 		
 

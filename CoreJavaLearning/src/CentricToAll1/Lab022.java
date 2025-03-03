@@ -8,19 +8,19 @@ public class Lab022 {
 		//Concatenation thing
 		
 		//Concatenating Integers
-		 int a =10;
-		 int b=20;
-		 System.out.println(a+b);
+		 int i =120;
+		 byte b=85;
+		 System.out.println(i+b);
 		 
 		 
 		 //Concatenating Strings and Integers
 		 
 		 String name="Vicky";
-		 System.out.println(name+a);
-		 System.out.println(a+name);
-		 System.out.println(name+a+b);  //It works as a concatenation
-		 System.out.println(a+b+name);  //Here integers are added
-		 System.out.println(name+(a+b)); //Here integers are added
+		 System.out.println(name+i);
+		 System.out.println(i+name);
+		 System.out.println(name+i+b);  //It works as a concatenation
+		 System.out.println(i+b+name);  //Here integers are added
+		 System.out.println(name+(i+b)); //Here integers are added
 		  
 		 
 		 

@@ -16,6 +16,12 @@ public class Lab024 {
 		System.out.println('S'==83);
 		System.out.println('H'==72);
 		
+		//Random checks
+		System.out.println(15<=12);
+		System.out.println(18>21);
+		System.out.println(100*10==1000*1);
+	
+		
 	}
 
 }

@@ -8,17 +8,17 @@ public class Lab023 {
 		
 		//Relational operators: > < >= <= == != instance of
 		
-		int Father_age=62;
-		int Mother_age=56;
-		int Daughter_age=32;
-		int Son_age=28;
+		int Elderbrother_age=42;
+		int Middlebrother_age=30;
+		int Youngerbrother_age=24;
 		
-		boolean result1=Father_age>Mother_age;
-		boolean result2=Daughter_age<Son_age;
+		boolean result1= Elderbrother_age<=Youngerbrother_age;
+		boolean result2= Youngerbrother_age<=Middlebrother_age;
 		
 		System.out.println(result1);
 		System.out.println(result2);
-
+		
+		
 	}
 
 }

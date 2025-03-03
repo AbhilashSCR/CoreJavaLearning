@@ -16,7 +16,7 @@ public class Lab026 {
 		
 		//Narrowing : Is a process of converting higher data type to lower data type. It's a critical operation and cannot predict o/p
 		
-		int i1=436;
+		int i1=236;
 		byte b1= (byte)i1;  //Explicit casting
 		System.out.println(b1);
 	   

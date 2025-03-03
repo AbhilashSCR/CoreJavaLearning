@@ -2,33 +2,24 @@ package CentricToAll1;
 
 public class Lab028 {
 	
-	public static void main(String[] args)
+	public static void main(String[] args)git
 	{
-		//String count
-		
-        String Microsoft_CEO="Satya Nadella";
-        String Google_CEO="Sundar Pichai";
-        String Novartis_CEO="Vasant Narasimhan";
-        String Adobe_CEO="Shantanu Narayan";
-        String IBM_CEO="Arvind Krishna";
-        String Starbucks_CEO="Laxman Narasimhan";
-        String VertexPharmaceuticals_CEO="Reshma Kewalramani";
-        String MicronTechnology_CEO="Sanjay Mehrotra";
-        String Cadence_CEO="Anirudh Devgan";
-        String PaloAltoNetworks_CEO="Nikesh Arora";
-        
-        
-		System.out.println(Microsoft_CEO.length());
-		System.out.println(MicronTechnology_CEO.length());
-		
-		System.out.println(Starbucks_CEO.toLowerCase());
-		System.out.println(Novartis_CEO.toLowerCase());
 		
 		
-		System.out.println(Adobe_CEO.toUpperCase());
-		System.out.println(Cadence_CEO.toUpperCase());
-		
+      String name="Rahul Dravid";  //It creates a string in a scp
+      String name2="Rahul Dravid"; //It points to the same string
+      name2= "The wall"; // Name replaces and creates a new string
+      System.out.println(name);
+      System.out.println(name2);
+      
 	
+	//New operator is used to create a object of class in the object area/heap area
+      
+      String name3=new String("Mr.Dependable");
+      System.out.println(name3);   //It creates a new object 
+      System.out.println(new String ("The Great wall of India"));  //creates new object
+      
+      
 		
 	}
 
