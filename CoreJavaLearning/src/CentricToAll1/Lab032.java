@@ -13,6 +13,7 @@ public class Lab032 {
         i=i+5;
         System.out.println(i);
         
+ 
         
         //Pre and Post increment and decrement operators
         
@@ -22,7 +23,12 @@ public class Lab032 {
         System.out.println(i1++);  //144
         System.out.println(i1--);  //145
         
-
+        //Combination of pre and post increment and decrement
+        
+        int i2=145;
+        
+        System.out.println(i2++ + ++i2 - i2--);
+        System.out.println(--i2 + i2++ - ++i2);
 		
 	}
 

@@ -1,5 +1,4 @@
 package CentricToAll1;
-
 public class Lab031 {
 
 	public static void main(String[] args)
@@ -7,8 +6,9 @@ public class Lab031 {
 		int i=true  ? 10:20;
 		System.out.println(i);
 		
-		String Highest_Network_Users=4<10?  "Jio Network" : "Airtel Network";
-		System.out.println(Highest_Network_Users);  //4 out of ten user jio n/w in india
+		String Numberof_Network_Users=4<10?  "Jio Network" : "Airtel Network";
+		System.out.println("4 out of 10 users are of "+Numberof_Network_Users); 
+		
 		
 		//Comparing thing
         int a =420;

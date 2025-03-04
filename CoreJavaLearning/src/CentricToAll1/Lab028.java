@@ -2,7 +2,7 @@ package CentricToAll1;
 
 public class Lab028 {
 	
-	public static void main(String[] args)git
+	public static void main(String[] args)
 	{
 		
 		
@@ -19,8 +19,13 @@ public class Lab028 {
       System.out.println(name3);   //It creates a new object 
       System.out.println(new String ("The Great wall of India"));  //creates new object
       
+      //Counting the length of the string
       
-		
+      System.out.println(name.length());
+      System.out.println(name2.length());
+      System.out.println(name3.toLowerCase());
+      System.out.println(name3.toUpperCase());
 	}
+
 
 }
