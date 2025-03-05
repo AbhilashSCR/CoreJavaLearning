@@ -7,10 +7,10 @@ public class Lab036 {
 	{
 		
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Entered the number 1");
-		int number1=sc.nextInt();
-		System.out.println("Entered the number 2");
-		int number2=sc.nextInt();
+		System.out.println("Number 1");
+		short number1=sc.nextShort();
+		System.out.println("Number 2");
+		short number2=sc.nextShort();
 		
 		if(number1>number2)
 			

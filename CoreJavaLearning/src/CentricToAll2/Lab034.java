@@ -13,7 +13,7 @@ public class Lab034 {
 		}
 		else
 		{
-			System.out.println("boolean value is false");
+			System.out.println("boolean value is not true");
 		}
 		
 		
@@ -21,11 +21,11 @@ public class Lab034 {
 		int number2=452;
 		if (number1!=number2)
 		{
-			System.out.println("Given number is odd number");
+			System.out.println("Given number is odd number--->"+ number1);
 		}
 		else
 		{
-			System.out.println("Given number is even number");
+			System.out.println("Given number is even number-->"+ number2);
 		}
 	
 		

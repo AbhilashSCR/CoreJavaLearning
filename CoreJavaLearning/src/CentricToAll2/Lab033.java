@@ -23,16 +23,30 @@ public class Lab033
 			System.out.println("The value of the boolean declared as false");
 		}
 		
+		boolean b1=true;
+		
+		if(b1=true)
+		{
+			System.out.println("The Value of the boolean declared as true");	
+			
+		}
+		else
+		{
+			System.out.println("The value of the boolean declared as false");
+		}
 		
 		byte rangeinbits=8;
 		int rangeinbits2=64;
 		
-		if(rangeinbits<rangeinbits2)
+		if(rangeinbits>rangeinbits2)
 		{
 			System.out.println("Byte size: 8 bits");
 		}
 		
-		
+		else
+		{
+			System.out.println("Int size: 64 bits");
+		}
 	}
 
 }

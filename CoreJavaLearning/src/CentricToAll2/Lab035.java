@@ -9,16 +9,16 @@ public class Lab035 {
 		//if else condition using scanner class.
 		
 		Scanner sc= new Scanner(System.in);
-		System.out.print("Enter the number:");
-		int number=sc.nextInt();
+		System.out.println("Enter the number below");
+		int number= sc.nextInt();
 		
-		if (number%2==0 )
+		if (number%2==0)
 		{
-		System.out.println("Entered number is even number");
+			System.out.println("Given number is an even number");
 		}
 		else
 		{
-			System.out.println("Entered number is odd number");
+			System.out.println("Given number is an odd number");
 		}
 		
 		
