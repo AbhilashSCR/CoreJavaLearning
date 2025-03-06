@@ -15,7 +15,7 @@ public class Lab037 {
 		int c =sc.nextInt();
 		if (a+b+c==270)
 	    {
-	    	System.out.println("a is larger among all");
+	    	System.out.println("a is largest among all");
 	    }
 	    else if(b+c==170)
 	    {

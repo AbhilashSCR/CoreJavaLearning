@@ -13,7 +13,7 @@ public class Lab038 {
 		int marks=sc.nextInt();
 		
 		
-		if(marks >=540 && marks <=550)
+		if(marks >=540 && marks <=549)
 		{
 			System.out.println(" You secured grade A");
 		}
