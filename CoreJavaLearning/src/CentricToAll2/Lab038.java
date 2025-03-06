@@ -9,38 +9,35 @@ public class Lab038 {
 		//Grade calculator based on obtained marks/6 subjects
 		
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the obtained total marks:");
+		System.out.print("Enter the total marks obtained:");
 		int marks=sc.nextInt();
 		
-		if(marks>=540 && marks<550)
+		
+		if(marks >=540 && marks <=550)
 		{
-			System.out.println("You have secured A+");
+			System.out.println(" You secured grade A");
 		}
-		else if(marks>=480 && marks<500)
+		
+		else if (marks >=450 && marks <=539)
 		{
-			System.out.println("You have secured A");
-			
+			System.out.println("You secured grade B");
 		}
-		else if(marks>=450 && marks<480)
+		
+		else if (marks >=350 && marks<=449)
 		{
-			System.out.println("You have secured B");
+			System.out.println("You secured grade C");
 		}
-		else if(marks>=420 && marks<450)
+		else if (marks >=300 && marks <=349)
 		{
-			System.out.println("You have secured C");
+			System.out.println("You secured grade D");
 		}
-	   
-		else if(marks>=390 && marks<420)
+		else if(marks >=210 && marks<=299)
 		{
-			System.out.println("You have secured D");
-		}
-		else if(marks>=360 && marks<390)
-		{
-			System.out.println("You have secured E");
+			System.out.println("You secured grade E");
 		}
 		else
 		{
-			System.out.println("Not intrested in securing marks");
+			System.out.println("You secured grade F");
 		}
 		
 	}

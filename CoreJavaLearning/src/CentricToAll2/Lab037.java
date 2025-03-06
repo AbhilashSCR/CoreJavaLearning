@@ -1,24 +1,30 @@
 package CentricToAll2;
 
+import java.util.Scanner;
+
 public class Lab037 {
+	
 	public static void main(String[] args)
 	{
-		int a=100;
-		int b=97;
-		int c=73;
-		
-	    if (a+b+c!=270)
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the value of A ");
+		int a= sc.nextInt();
+		System.out.println("Enter the value of B ");
+		int b =sc.nextInt();
+		System.out.println("Enter the value of C ");
+		int c =sc.nextInt();
+		if (a+b+c==270)
 	    {
 	    	System.out.println("a is larger among all");
 	    }
-	    else if(b+c!=170)
+	    else if(b+c==170)
 	    {
-	    	System.out.println("b is next among all");
+	    	System.out.println("b is second largest number among all");
 	    }
 		
 	    else
 	    {
-	    	System.out.println("c is lesser among all");
+	    	System.out.println("c is least number among all");
 	    }
 	}
 
