@@ -31,7 +31,7 @@ public class Lab040 {
 		}
 		else
 		{
-			System.out.println("It is an Scalene triangle");
+			System.out.println("It is a Scalene triangle");
 		}
 		
 	}

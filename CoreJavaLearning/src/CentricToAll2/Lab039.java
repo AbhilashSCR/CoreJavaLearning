@@ -6,7 +6,7 @@ public class Lab039 {
 		// TODO Auto-generated method stub
 
 		//Nested if condition
-		int i=100;
+		int i=420;
 		byte b=100;
 		if(i==b)
 		{
@@ -16,9 +16,9 @@ public class Lab039 {
 		{
 			System.out.println("Byte is divisible by Integer");
 		}
-		if(i/b==1)
+		if(i/b==4)
 		{
-			System.out.println("Modulus should be equal to 1");
+			System.out.println("Modulus is shown as expected");
 		}
 		
 	}
