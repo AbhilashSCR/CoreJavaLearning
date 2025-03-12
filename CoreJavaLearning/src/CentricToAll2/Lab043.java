@@ -5,37 +5,28 @@ public class Lab043 {
 	{
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the name of the browser, will let you know who owns it");
-		String browser=sc.next();
+		System.out.print("Enter the  name of the browser, it reveals who owned it: ");
+		String browser= sc.next();
 		
-		switch(browser)
+		switch (browser)
 		{
 		case "Chrome":
-			System.out.println("Chrome is owned by Google");
+			System.out.println("It is owned by Google");
 			break;
-	
-		case "Firefox":
-			System.out.println("Firefox is owned by Mozilla foundation");
-			break;
-			
 		case "Edge":
-			System.out.println("Edge is owned by Microsoft");
+			System.out.println("It is owned by Microsoft");
 			break;
-			
+		case "Firefox":
+			System.out.println("It is owned by Mozilla");
+			break;
 		case "Safari":
-			System.out.println("Safari is owned by Apple");
+			System.out.println("It is owned by Apple");
 			break;
-		
-		case "Opera":
-			System.out.println("Opera is owned by Opera software");
+		default:
+			System.out.println("Out  of web");
 			break;
-			
-        default:
-        	System.out.println("There is no such browser");
-		
-		
-		
 		}
+		System.out.println("End of program");
 
 	}
 

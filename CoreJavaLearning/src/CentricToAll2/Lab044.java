@@ -6,20 +6,19 @@ public class Lab044 {
 		// TODO Auto-generated method stub
 
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the state name, will fetch the respective capital city");
+		System.out.print("Enter the state name, will fetch the respective capital city: ");
 		String statename=sc.next();
 		
 		switch(statename)
 		{
 		case "Telangana":
 			System.out.println("Hyderabad is a capital of Telangana");
-			break;
-		 
+			break; 
 		case "AndhraPradesh":
 			System.out.println("Amaravathi is a captital of Andhrapradesh");
 			break;
 		case "Karnataka":
-			System.out.println("Banglore is a capital of karnataka");
+			System.out.println("Bengaluru is a capital of karnataka");
 			break;
 		case "kerala":
 			System.out.println("Thiruvananthapuram is a capital of kerala");
