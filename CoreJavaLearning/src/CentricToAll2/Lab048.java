@@ -16,8 +16,8 @@ public class Lab048 {
 		case 3 ->System.out.println("It is related to Opertions team");
 		case 4 ->System.out.println("It is related to Sales");
 		case 5 ->System.out.println("It is related to Marketing");
-		case 6 ->System.out.println("It is related to IT");
-		case 7 ->System.out.println("It is related to  R&D");
+		case 6 ->System.out.println("It is related to Digital marketing");
+		case 7 ->System.out.println("It is related to Backend");
 		
 		}
 	}
