@@ -17,7 +17,7 @@ public class Lab049 {
 		System.out.println(Math.multiplyFull(s, i));
 		System.out.println(Math.divideExact(l, s));
 		System.out.println(Math.pow(12, 4));
-	
+	    System.out.println(Math.subtractExact(s, i));
 		
 	}
 
