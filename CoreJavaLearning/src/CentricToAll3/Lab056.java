@@ -3,7 +3,7 @@ package CentricToAll3;
 public class Lab056 {
 	public static void main(String[] args)
 	{
-		//Breaking the integer
+		//Breaking an integer
 		for (int i=0; i<=10; i++)
 		{
 			if (i==5)
@@ -14,7 +14,7 @@ public class Lab056 {
 			}
 			System.out.println("Breaked the loop at the specified condition");
 			
-	  //One more
+	  //Decrementing
 			
 			for (int i=10; i>=1;i--)
 			{

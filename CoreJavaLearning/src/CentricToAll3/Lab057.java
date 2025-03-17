@@ -8,13 +8,14 @@ public class Lab057 {
 	{
 
 		
-		//Checking for integer in descending order
+		//Checking for integer in descending order/decrementing
 		
 		for (int i=10; i>=1; i--)
 		{
+			
 			System.out.println(i); 
 		
-		if(i==6)  //
+		if(i==8)  //
 		{
 			break;
 		}
@@ -46,7 +47,8 @@ public class Lab057 {
 	    		 break;
 	    	 }
 	     }
-	     System.out.println("It prints the condition and then breaks");
+	    
+	     System.out.print("End of the code");
 	}
 	
 }
