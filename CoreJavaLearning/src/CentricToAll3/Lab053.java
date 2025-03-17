@@ -9,7 +9,7 @@ public class Lab053 {
 		{
 			System.out.println(a);
 			}
-		System.exit(-1);
+		
 		
 	}
 

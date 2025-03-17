@@ -14,7 +14,7 @@ public class Lab056 {
 			}
 			System.out.println("Breaked the loop at the specified condition");
 			
-	  //Decrementing
+	  //Decrementing/Descending
 			
 			for (int i=10; i>=1;i--)
 			{

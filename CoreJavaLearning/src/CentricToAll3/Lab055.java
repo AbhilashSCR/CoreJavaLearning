@@ -13,7 +13,7 @@ public static void main(String[] args)
 	
 	   System.out.println("Floating dataype values");
 	
-    for (float f=2.2f; f<=15.3f; f++)
+    for (float f=2.2f; f<=14.7f; f++)
     {
      System.out.println(f);
 }

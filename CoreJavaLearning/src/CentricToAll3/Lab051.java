@@ -25,7 +25,7 @@ public class Lab051 {
 		
 		System.out.println("Here are employee details "+ employeename+ "/" + employeeid+ "/" + bloodgroup + "/"+contactnumber);
 		
-        sc.close();
+        sc.close(); //It is a good practice to close the scanner class
 	}
 
 }
