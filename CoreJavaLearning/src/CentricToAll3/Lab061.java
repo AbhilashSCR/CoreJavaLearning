@@ -22,9 +22,9 @@ public class Lab061 {
 	
 		//one more with different logic
 		
-		for(int j=9; j>=1; j--)
+		for(int j=10; j>=1; j--)
 		{
-			if(j%2==0)
+			if(j%3==0)
 			{
 				break;
 			}

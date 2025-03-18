@@ -6,7 +6,7 @@ public class Lab062 {
 	{
 		//Breaking the odd condition
 		
-		for(int i=1;i<=10;i++)
+		for(int i=2;i<=10;i++)
 		{
 			System.out.println(i);
 			{
