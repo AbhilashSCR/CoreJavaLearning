@@ -23,7 +23,7 @@ public class Lab065 {
 		
 			System.out.println(i);
 			{
-				if(i==4)
+				if(i==7)
 				{
 					continue;
 				}
@@ -34,7 +34,7 @@ public class Lab065 {
 	
 	//Checking for a String
 	
-	for(int i=1;i<=10;i++)
+	for(int i=1;i<=6;i++)
 	{
 		System.out.println("Abhilash");
 		{
@@ -44,6 +44,6 @@ public class Lab065 {
 			}
 		}
 	}
-	System.out.println("It prints the condition without skipping");
+	System.out.println("It prints the condition as specified");
 }
 }

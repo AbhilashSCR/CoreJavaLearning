@@ -13,7 +13,7 @@ public class Lab064 {
 			}
 			System.out.println(i);
 		}
-		System.out.println("It skips the specified condtion");
+		System.out.println("It skips the specified condtion, continues to print rest");
 		
 		
 		
@@ -27,7 +27,7 @@ public class Lab064 {
 			}
 			System.out.println(i);
 		}
-		System.out.println("It skips the specified condition");
+		System.out.println("It skips the specified condition, continues to print rest");
 		
 		
 		//Checking for a String
@@ -39,7 +39,7 @@ public class Lab064 {
 			}
 			System.out.println("Abhilash");
 		}
-		System.out.println("It skips the specified condition");
+		System.out.println("It skips the specified condition, continues to print rest");
 	}
 }
 

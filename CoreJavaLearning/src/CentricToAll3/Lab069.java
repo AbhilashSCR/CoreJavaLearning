@@ -13,11 +13,11 @@ public class Lab069 {
 	System.out.println(i);
  	}
  	
- 	System.out.println();
+ 	System.out.println("Printing of odd number");
  	
- 	for(int i=10;i>=0;i=i-1)
+ 	for(int i=9;i>=0;i--)
  	{
- 		if(i%2==1)
+ 		if(i%2==0)
  		{
  			break;
  		}
@@ -35,9 +35,9 @@ public class Lab069 {
 	 	 }
 		System.out.println(i);
 	}
-	System.out.println();
+	System.out.println("Printing of even number");
 	
-	for(int i=10;i>=1;i=i-1)
+	for(int i=10;i>=1;i--)
 	{
 		if(i%2==1)
  		{
