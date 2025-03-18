@@ -5,7 +5,7 @@ public class Lab059 {
  {
 	 //Printing odd number using for loop
 	 
-	 for(int i=1;i<=48;i++)
+	 for(int i=1;i<=49;i++)
 	 {
 		 if(i%2==1)
 		 {

@@ -6,7 +6,7 @@ public class Lab060 {
 	{
 		//Breaking the even condition 
 		
-		for(int i=3;i<=10;i++)
+		for(int i=3;i<=15;i++)
 		{
 			System.out.println(i);
 		if(i%2==0)

@@ -10,7 +10,7 @@ public class Lab057 {
 		
 		//Checking for integer in descending /decrementing
 		
-		for (int i=10; i>=1; i--)
+		for (int i=10; i>=4; i--)
 		{
 			
 			System.out.println(i); 

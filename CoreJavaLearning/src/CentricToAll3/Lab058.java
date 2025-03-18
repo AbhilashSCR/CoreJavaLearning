@@ -6,7 +6,7 @@ public class Lab058 {
 		
 		//Printing the even numbers using for loop
 		
-		for(int i=1; i<50;i++)
+		for(int i=1; i<=50;i++)
 		{
 			if (i%2==0)
 			{
