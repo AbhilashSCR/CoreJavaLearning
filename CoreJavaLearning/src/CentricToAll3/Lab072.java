@@ -9,7 +9,7 @@ public class Lab072 {
 		while(i>1)
 		{
 			System.out.println(i);
-			i--;
+			i--; //If we don't declare exit code, it keeps printing
 		}
 	}
 }

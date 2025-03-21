@@ -12,17 +12,15 @@ public class Lab075 {
 			System.out.println(i);
 			i=i+2;
 		}
-		
-		
-		
-		//Printing of odd numbers in ascending order
-		
-		int i1=1;
-		while(i1<=10)
-		{
-			System.out.println(i1);
-			i1=i1+2;
+			
+	
+	//Printing of odd numbers in ascending order
+	int i1=1;
+	while(i1<=10)
+	{
+		System.out.println(i1);
+		i1=i1+2;
 		}
-	}
 
+}
 }

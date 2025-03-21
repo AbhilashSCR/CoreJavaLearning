@@ -11,6 +11,7 @@ public class Lab073 {
 			System.out.println(i);
 			i++;
 		}
+		//Condition which satisfies will be printing
 		System.out.println("Printing the below code");
 		while(i==10)
 		{

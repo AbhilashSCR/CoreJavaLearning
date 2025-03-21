@@ -4,19 +4,16 @@ public class Lab079 {
 
 	public static void main(String[] args)
 	{
-		
-		int fact=1;
-		int number=5;
-		
 		int i=1;
-		while(i<=5)
+		int number=5;
+		int fact=1;
+		
+		while(i<=number)
 		{
 			fact=fact*i;
-		
-			System.out.println(fact);
 			i++;
 		}
-		
+		System.out.println(" Factorial of " + number + " is "+fact);
 	}
 
 }

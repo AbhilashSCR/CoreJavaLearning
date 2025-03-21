@@ -6,20 +6,18 @@ public class Lab076 {
 	{
 		
 		
-		//Printing of odd numbers in reverse order
-		
-		int i=9;
+		//Printing of even numbers in descending order 
+		int i=10;
 		while(i>=1)
 		{
 			System.out.println(i);
 			i=i-2;
 		}
 		
-		System.out.println("Below code is executed");
 		
-		//Printing of even numbers in reverse order
+		//Printing of odd numbers in descending order
 		
-		int i1=10;
+		int i1=11;
 		while(i1>=1)
 		{
 			System.out.println(i1);

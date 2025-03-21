@@ -5,10 +5,10 @@ public class Lab078 {
 	{
 		
 		int i=12;
-		while(i<=256)
+		while(i<=72)   //Failing the condition
 		{
 			System.out.println(i);
-			i=i*7+4;
+			i=i*7; 
 		}
 	}
 
