@@ -16,14 +16,13 @@ public class Lab086 {
 		System.out.println(employeeid[1]);
 		System.out.println(employeeid[2]);
 		System.out.println(employeeid[4]);
-		//System.out.println(employeeid[6]);  //It throws an error
 		System.out.println(employeeid.length);
 		
 		
 		
 	//Checking for Strings
 		
-		String[] employeename= {"Vijay","Ravi","Prardhana","Charan","Nazma","Tanuja"};
+		String[] employeename= {"Vijay","Ravi","Prardhana","Charan","Praveen","Nazma","Tanuja"};
 		
 		 System.out.println("Employee listed below are based on the designations");
 	     System.out.println(employeename[0]);
@@ -32,6 +31,7 @@ public class Lab086 {
 	     System.out.println(employeename[3]);
 	     System.out.println(employeename[4]);
 	     System.out.println(employeename[5]);
+	     System.out.println(employeename[6]);
 	     
 	     System.out.println("My reporting manager is:"+ employeename[0]);
 	     
