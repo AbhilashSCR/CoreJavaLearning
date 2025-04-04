@@ -2,7 +2,7 @@ package CentricToAll4;
 
 import java.util.Scanner;
 
-public class Lab95 {
+public class Lab095 {
 
 	
 	public static void main(String[] args)
