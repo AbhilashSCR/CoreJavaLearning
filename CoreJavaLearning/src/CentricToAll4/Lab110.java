@@ -1,4 +1,4 @@
-package CentricToAll4;
+	package CentricToAll4;
 
 public class Lab110 {
 	
