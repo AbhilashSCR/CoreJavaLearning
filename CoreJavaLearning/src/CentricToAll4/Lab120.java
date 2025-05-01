@@ -7,7 +7,7 @@ public class Lab120 {
 	{
 		int i=main(141);
 		System.out.println(i);
-		byte b=(byte) main(12);
+		byte b=(byte) main((byte)(0));
 		System.out.println(b);
 		String s=main("Jonty");
 		System.out.println(s);

@@ -6,6 +6,7 @@ public class Lab117 {
 	{
 		 discipline();   //Call to the function
 		 consistency();
+		 purpose();
 		
 	}
 	
@@ -24,5 +25,12 @@ public class Lab117 {
 		 {
 			System.out.println("Perseverance"); 
 		 }
+	 }
+	 
+	 static void purpose()
+	 {
+		 for(int i=0;i<=20;i++)
+		 {
+			 System.out.println("Struggle for existence");		 }
 	 }
 }

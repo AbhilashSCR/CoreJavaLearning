@@ -11,7 +11,7 @@ public class Lab119 {
 		int input_1=sc.nextInt();
 		System.out.println("Enter the number 2 ");
 		int input_2=sc.nextInt();
-		System.out.println(input_1+input_2);
+		System.out.println("Sum of both-->" + sum(input_1,input_2));
 	
 	
 	}
