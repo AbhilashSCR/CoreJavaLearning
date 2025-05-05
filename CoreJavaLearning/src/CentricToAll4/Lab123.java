@@ -6,7 +6,7 @@ public class Lab123 {
 	{
 		
 		String password="vemula@123";
-		String confirmpassword="vemula@1234";
+		String confirmpassword="vemula@134";
 		
 		if(password.equals(confirmpassword))   //Checks the values
 		{ 
