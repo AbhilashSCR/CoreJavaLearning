@@ -13,12 +13,12 @@ public class Lab129 {
         //StringBuilder: Is not a thread safety. It is faster and more efficient in single threaded environments
 		
 		
-		StringBuffer sbf=new StringBuffer("Abhilash");
+		StringBuffer sbf=new StringBuffer("Our work is our identity");
 		sbf.reverse();
 		System.out.println(sbf);
 		
 		
-		StringBuilder sb=new StringBuilder("Vemula");
+		StringBuilder sb=new StringBuilder("Lets be genuine");
 		sb.reverse();
 		System.out.println(sb);
 		
