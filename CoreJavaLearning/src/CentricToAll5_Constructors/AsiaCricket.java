@@ -4,7 +4,7 @@ public class AsiaCricket {
 
 	//Attributes
 	String tournament;
-	int asiacupheld;
+	int asiacupheldyear;
 	String mostsuccessful;
 	int indiawontournament;
 	
@@ -39,10 +39,10 @@ public class AsiaCricket {
 		
 		AsiaCricket Ac=new AsiaCricket();
 		
-	  System.out.println("Name of the tournamnet is Asia cup");
-	  System.out.println("Asia cup is conducted  every 2years");
-	  System.out.println("India is the most successful team in Asiacup");
-	  System.out.println("India won 8 times asia cup");
+	  System.out.println("Name of the tournamnet > Asia cup");
+	  System.out.println("Asia cup is conducted  every > 2years");
+	  System.out.println("India is the most succeed team in >Asiacup");
+	  System.out.println("India won > 8 times asia cup");
 	  
 	}
 	

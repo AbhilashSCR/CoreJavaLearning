@@ -6,43 +6,82 @@ public class DefaultValuesofPDTandNonPDT
 	
 	//Attributes
 	
-	//Applicant details
+	//Billing information
 	
-	String name;
-	char gender;
-	int age;
-	boolean ismarried;
-	byte pincode;
-	short assetsearned;
-	long contactnumber;
-	double height;
-	float weight;
+	String customername;
+	String emailaddress;
+	byte shippingaddress;
+	String landmark;
+	char productcode;
+	short pincode;
+	int transactionid;
+	long mobilenumber;
+	float productheight;
+	double productweight;
+	boolean productdelivered;
 	
+	//Behaviour
 	
-	//behaviour
-	
-	void name()
+	void customername()
 	{
-		System.out.println(name);
+		System.out.println(customername);
 	}
 	
-	static boolean ismarried()
+	void emailaddress()
 	{
-		return ismarried();
+		System.out.println(emailaddress);
 	}
 	
-	
-	public void printinfo()
+	static byte shippingaddress() 
 	{
-		System.out.println(name);  
-		System.out.println(gender);
-		System.out.println(age);
-		System.out.println(ismarried);
-		System.out.println(pincode);
-		System.out.println(assetsearned);
-		System.out.println(contactnumber);
-		System.out.println(height);
-		System.out.println(weight);
+		return shippingaddress();
 	}
-
-}
+	
+	static String landmark()
+	{
+		return landmark();
+	}
+	
+	static char productcode()
+	{
+		return productcode();
+	}
+    
+    static short pincode()
+    {
+    	return pincode();
+    }
+    static int transactionid()
+    {
+    	return transactionid();
+    }
+    
+    static long mobilenumber()
+    {
+    	return mobilenumber();
+    }
+    
+    static float productheight()
+    {
+    	return productheight();
+    }
+    
+    static double productweight()
+    {
+    	return productweight();
+    }
+    
+   public void printinfo() {
+	   
+	   System.out.println(customername);
+	   System.out.println(emailaddress);
+	   System.out.println(shippingaddress);
+	   System.out.println(landmark);
+	   System.out.println(productcode);
+	   System.out.println(transactionid);
+	   System.out.println(mobilenumber);
+	   System.out.println(productheight);
+	   System.out.println(productweight);
+	   
+   }
+   }
