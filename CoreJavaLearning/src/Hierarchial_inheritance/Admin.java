@@ -5,6 +5,6 @@ public class Admin extends Organizationchart {
 	
 	void positionofauthority()
 	{
-		System.out.println("Admin team is responsible for office management");
+		System.out.println("Admin team is responsible for workplace needs management");
 	}
 }

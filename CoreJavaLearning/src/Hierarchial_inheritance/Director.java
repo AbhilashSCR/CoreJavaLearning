@@ -4,7 +4,7 @@ public class Director extends SDETCareer{
 	
 	void careerpathway()
 	{
-		System.out.println("Associate director should be 15+ YOE");
+		System.out.println("Associate director should be 15+ YOE and managing the superiors");
 	}
 
 }
