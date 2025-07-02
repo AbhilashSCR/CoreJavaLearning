@@ -18,11 +18,10 @@ public class Mobilenetworks {
 		this.users=US;
 	}
 	
-	
 	public void printdetails()
 	{
 		System.out.println("There are four moible operators in india: Reliancejio,BharatiAirtel,VodafoneIdea,BSNL");
-		System.out.println("Jio has more number of users:"+users);
+		System.out.println("Jio has more number of users:"+this.users);
 	
 	}
 	

@@ -1,4 +1,4 @@
-package Multilevel_inheritance;
+package Hierarchial_inheritance;
 
 public class Csharp extends Highlevelprogramminglanguages
 {

@@ -4,7 +4,7 @@ public class OTTs {
 	
 	String netflixinda;
 	String amazonprimevideo;
-	String disneyhotstar;
+	String jiohotstar;
 	String zee5;
 	String sonyliv;
 	String Jiocinema;
@@ -15,11 +15,11 @@ public class OTTs {
 	float revenueearned;
 
 	
-	OTTs(String NF, String APV, String DH, String Z, String SL, String JC, String AH, String SN, String EN, String MP,float RE)
+	OTTs(String NF, String APV, String JH, String Z, String SL, String JC, String AH, String SN, String EN, String MP,float RE)
 	{
 	this.netflixinda=NF;
 	this.amazonprimevideo=APV;
-	this.disneyhotstar=DH;
+	this.jiohotstar=JH;
 	this.zee5=Z;
 	this.sonyliv=SL;
 	this.Jiocinema=JC;
@@ -33,7 +33,6 @@ public class OTTs {
 
  public void printdetails()
  {
-	 System.out.println("It has more number of subscribers: "+disneyhotstar);
-	 System.out.println("Highest revenue genearation in billions: "+revenueearned);
+	 System.out.println("Revenue generated in crores by Jiohotstar: "+revenueearned);
  }
 }

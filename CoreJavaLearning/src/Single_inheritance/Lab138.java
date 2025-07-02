@@ -6,7 +6,7 @@ public class Lab138 {
 	{
 		
 		
-		Mobilenetworks operators=new Mobilenetworks("reliancejio","bharatiairtel","vodafoneidea","bsnl",440000000);
+		Mobilenetworks operators=new Mobilenetworks("reliancejio","bharatiairtel","vodafoneidea","bsnl",500000000);
 		operators.printdetails();
 	}
 }

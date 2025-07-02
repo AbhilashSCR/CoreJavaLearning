@@ -27,13 +27,13 @@ public class Ecommercesites {
 
 	public void printdetails()
 		{
-		System.out.println("Amazon is good for :"+electronics);
-		System.out.println("Alibaba is good for : "+industrialsupplies);
-		System.out.println("Ebay is good for :"+homeandgardenneeds);
-		System.out.println("Walmart is good for:"+furniture);
-		System.out.println("myntra is good for:"+fashion);
-		System.out.println("Flipkart is good for:"+homeappliances);
-		System.out.println("Discount applied on above products in percentage:"+discount);
+		System.out.println("Amazon is good for :"+this.electronics);
+		System.out.println("Alibaba is good for : "+this.industrialsupplies);
+		System.out.println("Ebay is good for :"+this.homeandgardenneeds);
+		System.out.println("Walmart is good for:"+this.furniture);
+		System.out.println("myntra is good for:"+this.fashion);
+		System.out.println("Flipkart is good for:"+this.homeappliances);
+		System.out.println("Discount applied on above products in percentage:"+this.discount);
 			
 		}
 	}

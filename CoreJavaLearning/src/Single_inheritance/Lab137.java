@@ -5,7 +5,7 @@ public class Lab137 {
 	{
 		
 		
-		OTTs entertainment=new OTTs("netflixindia","amazonprimevideo","disneyhotstar","zee5","sonyliv","Jiocinema","aha","sunnxt","erosnow","mxplayer", (float) 16.7);
+		OTTs entertainment=new OTTs("netflixindia","amazonprimevideo","disneyhotstar","zee5","sonyliv","Jiocinema","aha","sunnxt","erosnow","mxplayer", (float) 10.6);
 		entertainment.printdetails();
 		
 	}

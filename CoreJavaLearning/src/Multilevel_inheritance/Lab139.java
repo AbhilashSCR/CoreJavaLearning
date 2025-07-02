@@ -5,29 +5,18 @@ public class Lab139 {
 	public static void main(String[] args)
 	{
 		
-		Father F=new Father();
-		F.position();
+		Father f= new Father();
+		f.legalheir();
 		
-		Son S= new Son();
-		S.position();
+		Son s= new Son();
+		f.legalheir();
+		s.legalheir();
 		
-		Grandson Gs=new Grandson();
-		Gs.position();
+		Grandson gs= new Grandson();
+		f.legalheir();
+		s.legalheir();
+		gs.legalheir();
 		
-
-        //Multi-level inheritance concept like 1st gen,2nd gen, 3rd gen
-		
-		
-	     Father f=new Son();
-	     f.position();
-	     
-	     Father f1=new Grandson();
-	     f1.position();
-	     
-	    
-	     Son s1= new Grandson();
-	     s1.position();
-	     
 	     
 	}
 

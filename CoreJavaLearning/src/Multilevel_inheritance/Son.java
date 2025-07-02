@@ -1,9 +1,10 @@
 package Multilevel_inheritance;
 
 public class Son extends Father{
-
-	void position()
+	
+	void legalheir()
 	{
-		System.out.println("He can access father belongings");
+		System.out.println("He is legal heir of father's property");
 	}
+
 }
