@@ -27,6 +27,8 @@ public class Lab145 {
 		Employeedetails E1= new Employeedetails();
 		String Employeedesignation="Junior software tester";
 		Employeedesignation="Software tester";  //Manipulated the designation
+		E1.printdetails();
+		System.out.println(Employeedesignation);
 		
 		
 	}
