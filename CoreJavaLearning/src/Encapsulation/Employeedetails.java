@@ -1,4 +1,4 @@
-package Enacapsulation;
+package Encapsulation;
 
 public class Employeedetails {
 	
