@@ -1,4 +1,4 @@
-package AccessModifiers_Police_Judge;
+package AccessModifiers_Judge;
 
 public class Lawyer {
 	
@@ -7,8 +7,9 @@ public class Lawyer {
 		
 		
 	Judgement jd=new Judgement("All the evidences are produced");
+	//jd.verdict();
+	jd.verdict1();
 	System.out.println("He should be punished");
-	//jd.punishtheaccused()
 	}
 
 }

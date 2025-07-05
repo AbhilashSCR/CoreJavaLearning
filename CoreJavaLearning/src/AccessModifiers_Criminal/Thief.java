@@ -1,6 +1,6 @@
 package AccessModifiers_Criminal;
 
-import AccessModifiers_Police_Judge.Cop;
+import AccessModifiers_Police.Cop;
 
 public class Thief {
 	
