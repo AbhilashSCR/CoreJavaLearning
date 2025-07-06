@@ -5,6 +5,6 @@ public class Mango extends Trees{
 
 	void fruit()
 	{
-		System.out.println("Largest producer of mango is Uttarpradesh");
+		System.out.println("Mango is excessively prouduced in Uttarpradesh");
 	}
 }

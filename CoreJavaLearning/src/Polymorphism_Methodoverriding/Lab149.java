@@ -23,6 +23,9 @@ public class Lab149 {
 		Languages lg5=new Tamil();
 		lg5.languages();
 		
+		
+		Languages lg6=new English();
+		lg6.languages();
 	}
 
 }

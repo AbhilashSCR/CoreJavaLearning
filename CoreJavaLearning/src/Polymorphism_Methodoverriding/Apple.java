@@ -4,7 +4,7 @@ public class Apple extends Trees{
 	
 	void fruit()
 	{
-		System.out.println("Largest producer of apple is Jammu&Kashmir");
+		System.out.println("Apple is excessively produced in Jammu&Kashmir");
 	}
 
 }

@@ -4,7 +4,7 @@ public class Bengali extends Languages{
 	
 	void languages()
 	{
-		System.out.println("8.03% of indian population speaks bengali");
+		System.out.println("About 8.03%  are the first language speakers of bengali");
 	}
 
 }

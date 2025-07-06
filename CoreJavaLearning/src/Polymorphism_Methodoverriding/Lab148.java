@@ -22,6 +22,12 @@ public class Lab148 {
 		Mango m= new Mango();
 		m.fruit();
 		
+		Banana b = new Banana();
+		b.fruit();
+		
+		Trees t3= new Banana();
+		t3.fruit();
+		
 		
 	}
 
