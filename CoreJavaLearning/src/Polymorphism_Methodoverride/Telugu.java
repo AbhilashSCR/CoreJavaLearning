@@ -1,4 +1,4 @@
-package Polymorphism_Methodoverriding;
+package Polymorphism_Methodoverride;
 
 public class Telugu extends Languages{
 
