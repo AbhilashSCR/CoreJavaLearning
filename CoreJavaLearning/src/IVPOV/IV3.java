@@ -8,10 +8,10 @@ public class IV3 {
 		mentor m= new mentor();
 		mentor m1=new mentor();
 		
-	    m.mentor();
-	    System.out.println("With is equal to:"+m.a);
-	    m1.mentor();
-	    System.out.println("With is equal to:"+m1.a);
+	    m.withoutmentor();
+	    System.out.println("Which is equal to:"+m.a);
+	    m1.withmentor();
+	    System.out.println("Which is equal to:"+m1.b);
 	}
 	
 
@@ -21,14 +21,17 @@ public class IV3 {
 class mentor{
 	
 	int a ;
+	int b=10;
 	
-	mentor()
-	{
-		this.a =a;
-	}
-	
-	void mentor()
+	void withoutmentor()
 	{
 		System.out.println("Resource without a mentor is clueless");
 	}
+	
+	void withmentor()
+	{
+		System.out.println("Resource with a mentor is aware");
+	}
+	
 }
+
