@@ -1,6 +1,6 @@
 package Interface;
 
-public class RC2 {
+public class RC2 extends UPIPayment{
 	
 	public static void main(String[] args)
 	{

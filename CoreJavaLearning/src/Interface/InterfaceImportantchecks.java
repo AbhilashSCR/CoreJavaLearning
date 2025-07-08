@@ -20,8 +20,6 @@ public class InterfaceImportantchecks {
 
 
 
-
-
 interface I
 {
 	void say();
@@ -36,7 +34,6 @@ interface I1
 {
 	
 }
-
 class hello implements I
 {
 
@@ -53,3 +50,4 @@ class hello implements I
 	}
 	
 }
+

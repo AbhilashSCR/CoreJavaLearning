@@ -1,6 +1,6 @@
 package Interface;
 
- interface Founder {
+ public interface Founder {
 
 	void earned100cr();
 	

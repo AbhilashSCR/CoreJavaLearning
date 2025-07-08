@@ -6,7 +6,8 @@ public class Interfaceexample2 {
 	{
 		System.out.println(A1.a);
 		System.out.println(B1.b);
-		
+		//System.out.println(A1.b);
+		//System.out.println(B1.a);
 	}
 
 }

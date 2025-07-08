@@ -1,14 +1,15 @@
 package Interface;
 
-public class Car implements Accelerator,Clutch,Break,Gear{
+public class Car implements Accelerator,Clutch,Break,Gear,Horn{
 	
 	void starttheengine()
 	{
 		System.out.println("Engine is started");
-		gear();
 		clutch();
+		gear();
 		accelerator();
 		Break();
+		horn();
 		
 	}
 
@@ -28,7 +29,7 @@ public class Car implements Accelerator,Clutch,Break,Gear{
 	@Override
 	public void accelerator() {
 		// TODO Auto-generated method stub
-		System.out.println("Lite press on accelerator");
+		System.out.println("Lite race on accelerator");
 		
 	}
    
@@ -38,7 +39,18 @@ public class Car implements Accelerator,Clutch,Break,Gear{
 		System.out.println("Break when needed");
 	}
 
+	@Override
+	public void horn() {
+		// TODO Auto-generated method stub
+		
+			System.out.println("Horn when required, especially requesting someone to give a way");
+		}
+		
+		
+	}
+	
+	
 
 
 	
-}
+
