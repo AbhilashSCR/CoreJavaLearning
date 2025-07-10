@@ -8,7 +8,7 @@ public class Lab153 {
 	{
 		socialmedia sc= new socialmedia("Global platform to connect remotely");
 		socialmedia.Shareofthoughts shareofthoughts=new socialmedia.Shareofthoughts(100);
-		sc.jobsearch();
+		sc.connections();
 		shareofthoughts.conversation();
 	}
 
@@ -21,9 +21,9 @@ class socialmedia
 	String LinkedIn;
 
 	public socialmedia(String linkedIn) {
-		LinkedIn = linkedIn;
+		this.LinkedIn = linkedIn;
 	}
-		void jobsearch()
+		void connections()
 		{
 			System.out.println("Platform for professionals to help remotely");
 		}
