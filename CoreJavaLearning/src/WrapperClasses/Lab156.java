@@ -17,9 +17,20 @@ public class Lab156 {
        Double D= Double.valueOf(d);
 	   System.out.println(D);
 	   
-	   //Conversion of primitive to string
-	   String s= String.valueOf(d);
+	  
+	   long l=864532l;
+	   Long L=Long.valueOf(l);
+	   System.out.println(L);
+	   
+	   
+	   short s=145;
+	   Short st=Short.valueOf(s);
 	   System.out.println(s);
+	   
+	   
+	   //Conversion of primitive to string
+	   String S= String.valueOf(d);
+	   System.out.println(S);
 	   
 	   
 	   
@@ -36,6 +47,15 @@ public class Lab156 {
        System.out.println(i);
        
        
+       
+       Byte B=123;
+       byte b=B;
+       System.out.println(b);
+       System.out.println(B);
+       
+       
+       
+       
 
        System.out.println(Integer.valueOf("119"));
        System.out.println(Integer.max(54,44));
@@ -49,8 +69,7 @@ public class Lab156 {
        
        
        
-       
-       
+    
        
        
 	}
