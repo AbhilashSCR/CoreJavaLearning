@@ -5,43 +5,27 @@ public class Lab163 {
 	{
 		//Various exception types handling mechanism individually
 		
-		/***int a =10;
-		try
-		{
-			 a=Integer.parseInt(args[0]);
-			
-		}catch (Exception e)
-		{
-			e.printStackTrace();
-		}***/                             
-		
-	//It throws an ArrayIndexOutOfBoundsException error
-		
-		/***int b=10;
-		try
-		{
-		int c=Integer.parseInt(args[0]);
-		    int d=b/c;
-			
-		}catch (Exception e)
-		{
-			e.printStackTrace();
-		} ***/
-		
-		//It throws an ArithmeticException 
-		
-		
-		try
-		{
-		String str=args[0];
-		int e=Integer.parseInt(str);
-		}catch (Exception e)
-		{
-			e.printStackTrace();
-			
-		}
-		
-		//It throws a NumberFormatException
+		 String  str="Abhilash";  //This should be passed in CLA
+	        try {
+	             int a= Integer.parseInt(args[0]);
+	        } catch (NumberFormatException e) {
+	            e.printStackTrace();
+	        }
+
+	        try {
+	            String str2=args[0];  //This should be passed in CLA
+	            int b = Integer.parseInt(str2);
+	            int c=b/0;
+	        } catch (ArithmeticException e) {
+	            e.printStackTrace();
+	        }
+
+	  //Note: Since we  are not passing any argument in CLA , it is throwing the below exception
+	        try {
+	            String str1 = args[0];
+	        } catch (ArrayIndexOutOfBoundsException e) {
+	            e.printStackTrace();
+	        }
+	    }
 	}
 
-}

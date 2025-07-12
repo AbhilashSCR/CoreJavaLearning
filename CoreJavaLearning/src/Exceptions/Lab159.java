@@ -6,13 +6,13 @@ public class Lab159 {
 	{
 		
 		String str=args[0];
-		
 		int a= Integer.parseInt(str);
 		int b= a/10;
+		int c=a/b;
 		
 		System.out.println(a);
 		System.out.println(b);
-		
+		System.out.println(c);		
 	}
 
 }

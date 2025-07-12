@@ -8,6 +8,6 @@ public class Lab157 {
 		String st=null;
 		st.trim();
 		
-		//Since we are not handling the exception mechanism , it will throw a null pointer exception
+		//Since we are not handling the exception mechanism , it will throw a null pointer exception error
 	}
 }

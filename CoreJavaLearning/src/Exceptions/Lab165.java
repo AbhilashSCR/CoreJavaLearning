@@ -14,7 +14,9 @@ public class Lab165 {
 		int b=txn_amount_debited/incorrect_amount;
 		}
 		catch(Exception e)
+		
 		{
+			e.printStackTrace();
 			System.out.println("Sorry for the inconvenience , debited amount will be auto credited in 10min");
 		}
 		

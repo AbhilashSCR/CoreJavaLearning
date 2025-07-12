@@ -8,10 +8,10 @@ public class Lab158 {
 		{
 		String name= null;
 		name.trim();
-	    System.out.println("Unable to print the null");
 		}
 		catch (Exception e)
 		{
+			System.out.println("Unable to print the null");
 			System.out.println("Using the exception mechanism");
 		}
 		

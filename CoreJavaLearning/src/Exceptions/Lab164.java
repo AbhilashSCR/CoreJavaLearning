@@ -13,8 +13,8 @@ public class Lab164 {
 		}catch (Exception e)
 		{
 			System.out.println("Please try later"); //Customized exception
-			//e.printStackTrace();  //However it throws the exception
-			System.exit(0);	 //It exit the execution of the code, where it is defined.
+			e.printStackTrace();  //However it throws the exception
+			//System.exit(0);	 //It exit the execution of the code, where it is defined.
 			
 		}
 		
