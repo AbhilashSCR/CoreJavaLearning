@@ -12,9 +12,10 @@ public class Lab180 {
 		try {
 			FileReader f= new FileReader(new File("c://Abhilash.txt"));
 		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 }
-//In this case, we have had a choice of using try&catch block or throws keyword at the method level
+//In this case, we have a choice of using try&catch block or throws keyword at the method level

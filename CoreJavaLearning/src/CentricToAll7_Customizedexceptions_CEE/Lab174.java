@@ -1,4 +1,4 @@
-package CentricToAll7_Customizedexceptions;
+package CentricToAll7_Customizedexceptions_CEE;
 
 public class Lab174 {
 	public static void main(String[] args) throws Exception 
