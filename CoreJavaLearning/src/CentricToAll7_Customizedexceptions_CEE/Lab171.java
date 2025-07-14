@@ -3,7 +3,7 @@ package CentricToAll7_Customizedexceptions_CEE;
 public class Lab171 {
 	
 	
-	public static void main(String[] args) throws Exception
+	public static void main(String[] args) throws Exception 
 	{
 		
 		//Note: Throw keyword is used at the object level and throws keyword is used at the method level
@@ -16,23 +16,26 @@ public class Lab171 {
 		
 		
 		//Here we are extracting using private keyword
-		extracted(5);  //Passing the parameter
-		throw new Exception("Exceptions are something which is handeled  by the user");
 		
+		
+		extracted(0);
+		throw new Exception("Exceptions are something, which is handeld by user");
 	}
 
-	private static void extracted(int c) {
-		int b;
-		if(c==5)
-		{
-			throw new ArithmeticException("Intentionally falling case");
+
+
+
+private static void extracted(int c)
+{
+	int b;
+	if(c==0)
+	{
+		throw new ArithmeticException("Intentionally failing the case");
+	}
+	else
+	{
+		 b=10/c;
+		 System.out.println(b);
 		}
-		b=10/c;
-		System.out.println(b);
-	}
-	
-	
-
 }
-
-
+}

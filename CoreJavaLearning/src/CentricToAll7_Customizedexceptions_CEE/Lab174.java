@@ -3,14 +3,14 @@ package CentricToAll7_Customizedexceptions_CEE;
 public class Lab174 {
 	public static void main(String[] args) throws Exception 
 	{
-		main("Abhilash");
+		thanking("Abhilash");
 	
 	}
 	//Note:It is mandate to pass a "throws exception" in the function and also in the main method
-	static void main(String a) throws Exception {
+	static void thanking(String person) throws Exception {
 	
 		//Note: Since the condition is false, get to see the customized exception
-		if (a.equals("a"))
+		if (person.equals("Abhilash Sharma"))
 		{
 			throw new ArithmeticException();
 		}

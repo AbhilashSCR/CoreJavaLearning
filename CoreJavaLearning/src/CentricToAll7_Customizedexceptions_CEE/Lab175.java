@@ -3,14 +3,14 @@ package CentricToAll7_Customizedexceptions_CEE;
 public class Lab175 {
 	public static void main(String[] args) throws Exception 
 	{
-		main("Abhilash");
+		balance(1000);
 	
 	}
 	//Note:It is mandate to pass a "throws exception" in the function and also in the main method
-	static void main(String a) throws Exception {
+	static void balance(int account) throws Exception {
 	
 		//Note: Since the condition is true, get to see the default exception
-		if (a.equals(a))
+		if (account ==(1000))
 		{
 			throw new ArithmeticException();
 		}

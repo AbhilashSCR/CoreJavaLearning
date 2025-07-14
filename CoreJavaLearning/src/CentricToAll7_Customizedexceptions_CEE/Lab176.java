@@ -5,18 +5,22 @@ import java.io.FileReader;
 
 public class Lab176 {
 	
-	public static void main(String[] args) throws Exception
+	public static void main(String[] args) throws Exception 
 	{
-		main("Abhilash");
+		main(10);
 	}
 	
-	//In-this case it throws default exception
-	static void main(String a) throws Exception 
+	//In-this case it throws default exception called java.lang.Exception
+	static void main(int a) throws Exception 
 	{
-		FileReader F= new FileReader(new File("C://Abhilash.txt"));
-		if (a.equalsIgnoreCase("a"))
+		//FileReader F= new FileReader(new File("C://Abhilash.txt"));
+		if (a==10)
 		{
-			throw new ArithmeticException();
+			throw new Exception();  
+		}
+		else
+		{
+			System.out.println("Filtered");
 		}
 	}
 
