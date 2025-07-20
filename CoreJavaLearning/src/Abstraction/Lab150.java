@@ -9,7 +9,9 @@ public class Lab150 {
 		d.domesticanimal();
 		d.pet();
 		
-	
+	    Rabbit r= new Rabbit();
+	    r.domesticanimal();
+	    r.pet();
 		
   }
 }
