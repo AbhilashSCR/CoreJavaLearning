@@ -9,6 +9,7 @@ public class t1 {
 		System.out.println(t);
 		for(int i=0;i<=10;i++)
 		{
+			System.out.println(i +" "+t.getThreadGroup());
 			System.out.println(i +" "+t.getName());
 			System.out.println(i +" "+t.getPriority());
 			Thread.sleep(1000);;

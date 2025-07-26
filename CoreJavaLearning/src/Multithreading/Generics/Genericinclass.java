@@ -1,4 +1,4 @@
-package Multithreading;
+package Multithreading.Generics;
 
 public class Genericinclass {
 	
@@ -15,8 +15,7 @@ public class Genericinclass {
 		System.out.println(empid.getObjects());
 		emp<Float> experience=new emp<Float>(3.5f);
 		System.out.println(experience.getObjects());
-		emp<Double> CTC=new emp<Double>(5.6);
-		System.out.println(CTC.getObjects());
+	
 		
 		
 	}

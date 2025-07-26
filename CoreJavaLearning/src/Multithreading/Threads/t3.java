@@ -27,7 +27,7 @@ class Worker extends Thread
 		// TODO Auto-generated method stub
 		for(int i=0;i<=10;i++)
 		try{
-			System.out.println(Thread.currentThread().getName());
+			System.out.println(Thread.currentThread().getName()+ " Working simultaneously ");
 			Thread.sleep(2000);
 			
 		}catch (Exception e)
