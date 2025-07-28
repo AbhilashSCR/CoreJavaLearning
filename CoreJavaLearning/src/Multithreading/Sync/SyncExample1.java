@@ -66,7 +66,7 @@ class Sync1
 		e.printStackTrace();
 	}
 }
-
+ //Consistent results in random order
 
 void m2()
 {
