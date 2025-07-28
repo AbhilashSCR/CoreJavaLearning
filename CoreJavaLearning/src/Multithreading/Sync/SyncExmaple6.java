@@ -70,7 +70,7 @@ class Sync6
 		}
 	}
 
-//Consistent result inorderg
+//Consistent result inorder 
 static synchronized void m2()
 {
 	Thread t2= Thread.currentThread();
