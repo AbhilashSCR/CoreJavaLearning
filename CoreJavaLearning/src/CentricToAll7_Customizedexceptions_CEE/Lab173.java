@@ -12,6 +12,7 @@ public class Lab173 {
 	
 	static void name(String Name) throws Exception
 	{
+		
 		if(Name.length()==8)   //Since the condition is correct, it is throwing arithmeticexception
 		{
 			throw new ArithmeticException();

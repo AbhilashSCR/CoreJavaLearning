@@ -5,22 +5,24 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class Lab172 {
-	public static void main(String args[]) throws Exception 
+	
+	public static void main(String[] args) throws FileNotFoundException 
 	{
-		readfile("C://Abhilash.txt");
 		
+	readfile("C://Abhilash");
 		
-	}
-	
-	static void readfile(String Filename) throws Exception {
-	File f= new File(Filename);
-	FileReader filereader= new FileReader(Filename);
-	if (Filename.length()==0)
-	{
-		throw new FileNotFoundException();
-	}
-	
-	System.out.println("File not found exception");
-	
 }
+
+
+	static void readfile(String Filename) throws FileNotFoundException {
+		
+		File file= new File(Filename);
+		FileReader filereader= new FileReader(Filename);
+		if(Filename.length()==0)
+		{
+			throw new FileNotFoundException();
+		}
+		System.out.println("Not vulnerable code");
+		
+	}
 }

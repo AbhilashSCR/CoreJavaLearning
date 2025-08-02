@@ -3,7 +3,7 @@ package CentricToAll7_Customizedexceptions_CEE;
 public class Lab175 {
 	public static void main(String[] args) throws Exception 
 	{
-		balance(1000);
+		balance(100);
 	
 	}
 	//Note:It is mandate to pass a "throws exception" in the function and also in the main method

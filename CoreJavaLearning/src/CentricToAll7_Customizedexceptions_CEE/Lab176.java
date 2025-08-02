@@ -13,7 +13,7 @@ public class Lab176 {
 	//In-this case it throws default exception called java.lang.Exception
 	static void main(int a) throws Exception 
 	{
-		//FileReader F= new FileReader(new File("C://Abhilash.txt"));
+	
 		if (a==10)
 		{
 			throw new Exception();  

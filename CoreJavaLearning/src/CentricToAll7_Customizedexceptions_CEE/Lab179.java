@@ -8,7 +8,8 @@ public class Lab179 {
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		
-		int a=10/0;  //Note: This is an example of unchecked exception. Where JVM doesn't know about the error in advance.
+		int a=10/0; 
+		//Note: This is an example of unchecked exception. Where JVM doesn't know about the error in advance.
 
 		
 		try {
