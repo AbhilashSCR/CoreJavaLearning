@@ -19,8 +19,8 @@ public class HashsetExample1 {
 		System.out.println(biscuits.remove("Anmol"));
 		System.out.println(biscuits.contains("Priyagold"));
 		System.out.println(biscuits.add("Unibic"));
-		System.out.println(biscuits);
 		System.out.println(biscuits.size());
+		System.out.println(biscuits);
 		
 		
 		

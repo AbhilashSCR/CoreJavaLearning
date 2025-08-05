@@ -11,7 +11,7 @@ public class HashsetExample4 {
 		Set Tier2cities= new HashSet();
 		Tier2cities.add("Indore");
 		Tier2cities.add(2);
-		System.out.println(Tier2cities + "-->"+ " Known for its cleanliness and rapid development");
+		System.out.println(Tier2cities + "-->"+ " Known for its cleanliness and rapid development ");
 	}
 
 }

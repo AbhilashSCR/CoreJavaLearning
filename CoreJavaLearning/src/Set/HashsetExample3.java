@@ -11,5 +11,6 @@ public class HashsetExample3 {
 		Set <Integer>numberoftier2cities= new HashSet<Integer>();
 		numberoftier2cities.add(18);
 		System.out.println(numberoftier2cities);
+		//It restricts Integer
 	}
 }

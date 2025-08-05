@@ -29,7 +29,7 @@ public class HashsetExample2 {
 		Tier2cities.add("Rajkot");
 		Tier2cities.add("Nashik");
 		
-		System.out.println("The following cities fall under Tier2cities-->"+ Tier2cities);
+		System.out.println("The following cities fall under Tier2cities --> "+ Tier2cities);
 		
 	}
 }
